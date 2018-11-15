@@ -1,0 +1,26 @@
+#a 2d list is a list of lists
+i = [[1,2,3], [4,5,6],[7,8,9]]
+#print(i[2][1]) #print 2nd term of 3rd term
+
+i = []
+for x in range(10):
+	i.append(0)
+#print(i)
+
+i = [0]*10 #same thing as lines 5-7
+#print(i)
+
+i =[]
+for x in range(10):
+	k = [0]*10
+	i.append(k)
+
+
+i = [[0]*10 for x in range(10)]#same is 13-16
+#print(i)
+
+#for x in range(len(i)):
+#	print(i[x])
+
+for x in i:
+	print(*x)
